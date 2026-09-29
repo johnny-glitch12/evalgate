@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+# Put the repository root on sys.path so `pytest` works the same way as
+# `python -m pytest`. Without this, a bare `pytest` cannot import `evalgate`
+# and the suite fails at collection — which is exactly the kind of
+# "the gate did not actually run" failure this repository exists to catch.
+pythonpath = ["."]
+testpaths = ["tests"]
