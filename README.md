@@ -1,5 +1,7 @@
 # evalgate
 
+[![eval gate](https://github.com/johnny-glitch12/evalgate/actions/workflows/evalgate.yml/badge.svg)](https://github.com/johnny-glitch12/evalgate/actions/workflows/evalgate.yml)
+
 A deterministic evaluation gate for LLM code generation.
 
 It answers one question in CI: **did the model get worse?** — and it is built so that
