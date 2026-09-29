@@ -1,0 +1,38 @@
+{
+  "aggregate": {
+    "avg_quality": 1.0,
+    "by_model": {
+      "stub-deterministic": {
+        "builds": 14,
+        "verified": 14
+      }
+    },
+    "clean_first_pass_rate": 1.0,
+    "good_rate": 1.0,
+    "outcome_breakdown": {
+      "verified": 14
+    },
+    "total": 14,
+    "verified_rate": 1.0
+  },
+  "generated_at": "2026-07-11T06:45:38.242831+00:00",
+  "grading": "expectation-based scores over deterministic stub artifacts; NOT a live pipeline run",
+  "mode": "stub",
+  "per_case": {
+    "crm_api_integrator": 1.0,
+    "cron_task_scheduler": 1.0,
+    "csv_sales_report": 1.0,
+    "data_cleaner": 1.0,
+    "deploy_notifier": 1.0,
+    "docs_qa_agent": 1.0,
+    "email_digest_cron": 1.0,
+    "feedback_form_app": 1.0,
+    "metrics_dashboard": 1.0,
+    "slack_standup_bot": 1.0,
+    "stripe_checkout_link": 1.0,
+    "telegram_alert_bot": 1.0,
+    "web_scraper_prices": 1.0,
+    "webhook_relay": 1.0
+  },
+  "schema_version": 1
+}
